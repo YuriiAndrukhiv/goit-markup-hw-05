@@ -523,7 +523,7 @@ header {
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
-.portfolio-thumb {
+.top-card {
   position: relative;
 
   overflow: hidden;
@@ -554,7 +554,7 @@ header {
   background: rgba(33, 150, 243, 0.9);
 }
 
-.portfolio-addition {
+.bottom-card {
   padding: 20px 24px;
 
   background-color: var(--white-color);
