@@ -678,13 +678,15 @@ address {
 
 .footer-email {
   margin: 0;
-
   min-width: 358px;
   min-height: 50px;
-  background-color: gray;
-  font-size: 16px;
-  line-height: 20px;
-  color: rgba(255, 255, 255, 0.6);
+
+  /* font-size: 16px;
+  line-height: 20px; */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
 }
 
 /* Footer-button */
