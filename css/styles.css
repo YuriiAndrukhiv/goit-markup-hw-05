@@ -769,6 +769,8 @@ address {
   width: 30px;
   height: 30px;
 
+  transition: color var(--time-delay) var(--time-fuction);
+
   color: var(--additional-black-color);
   border-radius: 50%;
 }
