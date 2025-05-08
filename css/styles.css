@@ -760,7 +760,7 @@ address {
   background: var(--white-color);
 }
 
-.modal a {
+.link-close {
   display: inline-block;
   margin-left: 490px;
   margin-right: 8px;
@@ -770,12 +770,11 @@ address {
   height: 30px;
 
   color: var(--additional-black-color);
-  /* background-color: var(--additional-black-color); */
   border-radius: 50%;
 }
 
-.modal a:hover,
-.modal a:focus {
+.link-close:hover,
+.link-close:focus {
   color: var(--accent-color);
 }
 
