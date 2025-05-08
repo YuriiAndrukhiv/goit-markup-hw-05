@@ -9,7 +9,7 @@
   --secondary-text-color: #757575;
   --white-color: #ffffff;
   --accent-color: #2196f3;
-  --logo-first-world-color: #000000;
+  --logo-second-world-color: #000000;
   --background--color: #f5f4fa;
   --footer-background: #2f303a;
   --social-networks-color: #afb1b8;
@@ -65,15 +65,15 @@ header {
   text-decoration: none;
 }
 .first-word-logo,
-.two-word-logo {
+.second-word-logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 26px;
   color: var(--accent-color);
 }
 
-.two-word-logo {
-  color: var(--logo-first-world-color);
+.second-word-logo {
+  color: var(--logo-second-world-color);
 }
 
 /*----------------------STUDIO--------------------------*/
@@ -603,7 +603,7 @@ footer .logo {
   margin-bottom: 20px;
 }
 
-footer .two-word-logo {
+footer .second-word-logo {
   color: var(--white-color);
 }
 
@@ -687,6 +687,7 @@ address {
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: rgba(33, 150, 243, 0);
+  color: var(--white-color);
 }
 
 /* Footer-button */
@@ -757,4 +758,27 @@ address {
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   background: var(--white-color);
+}
+
+.modal a {
+  display: inline-block;
+  margin-left: 490px;
+  margin-right: 8px;
+  margin-top: 8px;
+
+  width: 30px;
+  height: 30px;
+
+  color: var(--logo-second-world-color);
+  background-color: red;
+  border-radius: 50%;
+}
+
+.modal a:hover,
+.modal a:focus {
+  color: var(--accent-color);
+}
+
+.icon-close {
+  fill: currentColor;
 }
