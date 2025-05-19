@@ -477,14 +477,6 @@
             <a href="" class="footer-button item"> Підписатись</a>
           </div>
         </form>
-
-        <!-- <div class="subscribe">
-          <b class="subscribe-title">Підпишіться на розсилку</b>
-          <div class="subscribe-items">
-            <p class="footer-email item">E-mail</p>
-            <a href="" class="footer-button item"> Підписатись</a>
-          </div>
-        </div> -->
       </div>
     </footer>
 
@@ -506,27 +498,24 @@
           <label for="mail">Пошта</label>
           <input type="email" name="mail" id="mail" />
           <br />
+          <input
+            type="checkbox"
+            name="agreement"
+            value="checkbox"
+            id="checkbox"
+          />
+          <label for="checkbox"
+            >Погоджуюся з розсилкою та приймаю Умови договору</label
+          >
+          <br />
+          <textarea name="comment" id="comment" rows="10"></textarea>
+          <br />
           <button type="submit">Надіслати</button>
         </form>
       </div>
     </div>
 
     <script src="./js/modal.js"></script>
-
-    <script>
-      (() => {
-        document
-          .querySelector('.js-speaker-form')
-          .addEventListener('submit', e => {
-            e.preventDefault();
-
-            new FormData(e.currentTarget).forEach((value, name) =>
-              console.log(`${name}: ${value}`),
-            );
-
-            e.currentTarget.reset();
-          });
-      })();
-    </script>
+    <script src="./js/modal-run.js"></script>
   </body>
 </html>
