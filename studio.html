@@ -490,13 +490,15 @@
         <h2>Залишіть свої дані, ми вам зателефонуємо</h2>
         <form class="js-speaker-form">
           <label for="name"></label>
-          <input type="text" name="user-name" id="name" placeholder="Ім'я"/>
+          <input type="text" name="user-name" id="name" placeholder="Ім'я" />
           <br />
           <label for="tel"></label>
-          <input type="tel" name="tel" id="tel" placeholder="Телефон"/>
+          <input type="tel" name="tel" id="tel" placeholder="Телефон" />
           <br />
           <label for="mail"></label>
-          <input type="email" name="mail" id="mail" placeholder="Пошта"/>
+          <input type="email" name="mail" id="mail" placeholder="Пошта" />
+          <br />
+          <textarea name="comment" id="comment" rows="10"></textarea>
           <br />
           <input
             type="checkbox"
@@ -505,10 +507,9 @@
             id="checkbox"
           />
           <label for="checkbox"
-            >Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label
+            >Погоджуюся з розсилкою та приймаю
+            <a href="">Умови договору</a></label
           >
-          <br />
-          <textarea name="comment" id="comment" rows="10"></textarea>
           <br />
           <button type="submit">Надіслати</button>
         </form>
