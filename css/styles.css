@@ -735,8 +735,8 @@ address {
 }
 
 .backdrop.is-hidden {
-  opacity: 1;
-  /* pointer-events: none; */
+  opacity: 0;
+  pointer-events: none;
 }
 
 .backdrop.is-hidden .modal {
