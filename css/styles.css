@@ -783,3 +783,30 @@ address {
 .icon-close {
   fill: currentColor;
 }
+
+form {
+  width: 528x;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+
+  outline: 1px solid tomato;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+
+  outline: 1px solid blue;
+}
+
+.form-input {
+  margin: 0;
+  padding: 11px 16px;
+}
+
+textarea {
+  resize: none;
+}

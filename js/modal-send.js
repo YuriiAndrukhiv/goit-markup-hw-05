@@ -1,27 +1,10 @@
-  (() => {
-        document
-          .querySelector('.js-speaker-form')
-          .addEventListener('submit', e => {
-            e.preventDefault();
+(() => {
+  document.querySelector('.js-speaker-form').addEventListener('submit', e => {
+    e.preventDefault();
 
-            // new FormData(e.currentTarget).forEach((value, name) =>
-            //   console.log(`${name}: ${value}`),
-            // );
-
-            console.log(`TEST`);
-            e.currentTarget.reset();
-          });
-      })();
-// {
-//   () => {
-//     document
-//       .querySelector('.js-speaker-form')
-//       .addEventListener('submit', e => {
-//         e.preventDefault();
-
-//         new FormData(e.currentTarget).forEach((value, name) =>
-//         console.log())
-//     })
-// }
-  
-//   }
+    new FormData(e.currentTarget).forEach(
+      (value, name) => console.log('${name}: ${value}'),
+      // console.log(`TEST`)
+    );
+  });
+})();

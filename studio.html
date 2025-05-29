@@ -488,25 +488,30 @@
           </svg>
         </a>
         <h2>Залишіть свої дані, ми вам зателефонуємо</h2>
-        <form class="js-speaker-form">
-          <label for="name"></label>
-          <input type="text" name="user-name" id="name" placeholder="Ім'я" />
-          <br />
-          <label for="tel"></label>
-          <input type="tel" name="tel" id="tel" placeholder="Телефон" />
-          <br />
-          <label for="mail"></label>
-          <input type="email" name="mail" id="mail" placeholder="Пошта" />
-          <br />
+        <form class="form js-speaker-form">
+          <div class="form-field">
+            <label class="form-label" for="name">Ім'я</label>
+            <input class="form-input" type="text" name="user-name" id="name" />
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="tel">Телефон</label>
+            <input class="form-input" type="tel" name="tel" id="tel" />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="mail">Пошта</label>
+            <input class="form-input" type="email" name="mail" id="mail" />
+          </div>
+
           <textarea name="comment" id="comment" rows="10"></textarea>
           <br />
           <input
             type="checkbox"
             name="agreement"
             value="checkbox"
-            id="checkbox"
+            id="policy"
           />
-          <label for="checkbox"
+          <label for="policy"
             >Погоджуюся з розсилкою та приймаю
             <a href="">Умови договору</a></label
           >
