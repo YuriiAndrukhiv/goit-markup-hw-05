@@ -785,13 +785,25 @@ address {
 }
 
 form {
-  width: 528x;
-  padding-top: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-top: 0px; */
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
   padding-bottom: 40px;
 
   outline: 1px solid tomato;
+}
+
+.form-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+
+  font-family: var(--first-family);
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
 }
 
 .form-field {
@@ -802,11 +814,28 @@ form {
   outline: 1px solid blue;
 }
 
+.form-label {
+  font-family: var(--first-family);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: var(--secondary-text-color);
+}
+
 .form-input {
+  width: 448px;
+  height: 40px;
   margin: 0;
   padding: 11px 16px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
 }
 
 textarea {
+  width: 448px;
+  height: 120px;
+  margin-bottom: 20px;
+
   resize: none;
 }

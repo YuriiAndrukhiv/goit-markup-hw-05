@@ -487,12 +487,13 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </a>
-        <h2>Залишіть свої дані, ми вам зателефонуємо</h2>
         <form class="form js-speaker-form">
+          <h2 class="form-title">Залишіть свої дані, ми вам зателефонуємо</h2>
           <div class="form-field">
             <label class="form-label" for="name">Ім'я</label>
             <input class="form-input" type="text" name="user-name" id="name" />
           </div>
+
           <div class="form-field">
             <label class="form-label" for="tel">Телефон</label>
             <input class="form-input" type="tel" name="tel" id="tel" />
@@ -504,18 +505,20 @@
           </div>
 
           <textarea name="comment" id="comment" rows="10"></textarea>
-          <br />
-          <input
-            type="checkbox"
-            name="agreement"
-            value="checkbox"
-            id="policy"
-          />
-          <label for="policy"
-            >Погоджуюся з розсилкою та приймаю
-            <a href="">Умови договору</a></label
-          >
-          <br />
+
+          <div class="form-field">
+            <input
+              type="checkbox"
+              name="agreement"
+              value="checkbox"
+              id="policy"
+            />
+            <label for="policy"
+              >Погоджуюся з розсилкою та приймаю
+              <a href="">Умови договору</a></label
+            >
+          </div>
+
           <button type="submit">Надіслати</button>
         </form>
       </div>
