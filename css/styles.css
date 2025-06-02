@@ -668,6 +668,7 @@ address {
 /* Subscribe */
 .subscribe-items {
   display: flex;
+
   align-items: center;
   margin: 0;
 }
@@ -680,9 +681,12 @@ address {
   margin: 0;
   min-width: 358px;
   min-height: 50px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
-  /* font-size: 16px;
-  line-height: 20px; */
+  font-size: 16px;
+  line-height: 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -694,13 +698,9 @@ address {
 .footer-button {
   display: flex;
   align-items: center;
-  padding-top: 10px;
-  padding-right: 28px;
-  padding-bottom: 10px;
-  padding-left: 29px;
   min-width: 200px;
+  padding: 10px 28px;
 
-  /* text-align: center; */
   border-radius: 4px;
   text-decoration: none;
   font-weight: 700;
