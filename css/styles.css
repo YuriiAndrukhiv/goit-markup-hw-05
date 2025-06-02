@@ -700,7 +700,7 @@ address {
   padding-left: 29px;
   min-width: 200px;
 
-  text-align: center;
+  /* text-align: center; */
   border-radius: 4px;
   text-decoration: none;
   font-weight: 700;
@@ -786,7 +786,6 @@ address {
 
 form {
   width: 448px;
-  /* margin-top: 40px; */
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 40px;
@@ -798,7 +797,6 @@ form {
   margin-top: 0px;
   margin-bottom: 30px;
 
-  font-family: var(--first-family);
   font-weight: 700;
   font-size: 20px;
   text-align: center;
@@ -813,7 +811,6 @@ form {
 }
 
 .form-label {
-  font-family: var(--first-family);
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.01em;
@@ -836,6 +833,10 @@ textarea {
   margin-bottom: 20px;
   padding: 12px 10px;
 
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: var(--secondary-text-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
@@ -859,7 +860,6 @@ input [type='checkbox'] {
 .form-checkbox label {
   margin-left: 4px;
 
-  text-align: center;
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
@@ -867,4 +867,23 @@ input [type='checkbox'] {
 
 .checkbox-link {
   color: var(--accent-color);
+}
+
+.form-button {
+  display: block;
+  min-width: 200px;
+  padding: 10px 55px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  border: none;
 }
