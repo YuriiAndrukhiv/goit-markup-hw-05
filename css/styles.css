@@ -666,6 +666,10 @@ address {
 }
 
 /* Subscribe */
+.form-subscribe {
+  width: 570px;px;
+}
+
 .subscribe-items {
   display: flex;
 
@@ -676,6 +680,8 @@ address {
 .subscribe-items .item + .item {
   margin-left: 12px;
 }
+
+
 
 .footer-email {
   margin: 0;
@@ -719,6 +725,7 @@ address {
   width: 24px;
   background-image: url(../images/icon-send.svg);
 }
+/* Backdrop */
 
 .backdrop {
   position: fixed;
@@ -743,6 +750,7 @@ address {
   transform: translate(-50%, -50%) scale(0.9);
 }
 
+/* Modal window */
 .modal {
   position: absolute;
   top: 50%;
