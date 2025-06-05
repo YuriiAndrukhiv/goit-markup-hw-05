@@ -29,7 +29,6 @@ body {
 }
 
 /* Container */
-
 .container {
   width: 1230px;
   padding-left: 15px;
@@ -667,7 +666,7 @@ address {
 
 /* Subscribe */
 .form-subscribe {
-  width: 570px;px;
+  width: 570px;
 }
 
 .subscribe-items {
@@ -680,8 +679,6 @@ address {
 .subscribe-items .item + .item {
   margin-left: 12px;
 }
-
-
 
 .footer-email {
   margin: 0;
@@ -811,6 +808,7 @@ form {
 }
 
 .form-field {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin-bottom: 28px;
@@ -819,6 +817,11 @@ form {
 }
 
 .form-label {
+  position: absolute;
+  top: 50%;
+  left: 42px;
+  transform: translateY(-50%);
+
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.01em;
@@ -833,6 +836,12 @@ form {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  color: var(--accent-color);
+  transform: translateY(-40px);
 }
 
 textarea {

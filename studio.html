@@ -480,6 +480,7 @@
       </div>
     </footer>
 
+    <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <a class="link-close" data-modal-close>
@@ -490,18 +491,45 @@
         <form class="form js-speaker-form">
           <h2 class="form-title">Залишіть свої дані, ми вам зателефонуємо</h2>
           <div class="form-field">
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              id="name"
+              placeholder=" "
+            />
             <label class="form-label" for="name">Ім'я</label>
-            <input class="form-input" type="text" name="user-name" id="name" />
+            <svg width="12" height="12">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
           </div>
 
           <div class="form-field">
+            <input
+              class="form-input"
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder=" "
+            />
             <label class="form-label" for="tel">Телефон</label>
-            <input class="form-input" type="tel" name="tel" id="tel" />
+            <svg width="13" height="13">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
           </div>
 
           <div class="form-field">
+            <input
+              class="form-input"
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder=" "
+            />
             <label class="form-label" for="mail">Пошта</label>
-            <input class="form-input" type="email" name="mail" id="mail" />
+            <svg width="15" height="12">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
           </div>
 
           <textarea
