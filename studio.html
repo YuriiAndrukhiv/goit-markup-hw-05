@@ -474,7 +474,12 @@
               name="user-name"
               placeholder="E-mail"
             />
-            <a href="" class="footer-button item"> Підписатись</a>
+            <a href="" class="footer-button item">
+              <svg class="icon-send" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+              Підписатись</a
+            >
           </div>
         </form>
       </div>
@@ -490,47 +495,39 @@
         </a>
         <form class="form js-speaker-form">
           <h2 class="form-title">Залишіть свої дані, ми вам зателефонуємо</h2>
-          <div class="form-field">
+          <label class="form-field">
             <input
               class="form-input"
               type="text"
               name="user-name"
-              id="name"
               placeholder=" "
             />
-            <label class="form-label" for="name">Ім'я</label>
-            <svg width="12" height="12">
+            <spam class="form-label">Ім'я</spam>
+            <svg class="form-icon" width="12" height="12">
               <use href="./images/icons.svg#icon-person"></use>
             </svg>
-          </div>
+          </label>
 
-          <div class="form-field">
-            <input
-              class="form-input"
-              type="tel"
-              name="tel"
-              id="tel"
-              placeholder=" "
-            />
-            <label class="form-label" for="tel">Телефон</label>
-            <svg width="13" height="13">
+          <label class="form-field">
+            <input class="form-input" type="tel" name="tel" placeholder=" " />
+            <spam class="form-label">Телефон</spam>
+            <svg class="form-icon" width="13" height="13">
               <use href="./images/icons.svg#icon-phone"></use>
             </svg>
-          </div>
+          </label>
 
-          <div class="form-field">
+          <label class="form-field">
             <input
               class="form-input"
               type="email"
-              name="mail"
-              id="mail"
+              name="email"
               placeholder=" "
             />
-            <label class="form-label" for="mail">Пошта</label>
-            <svg width="15" height="12">
+            <spam class="form-label">Пошта</spam>
+            <svg class="form-icon" width="15" height="12">
               <use href="./images/icons.svg#icon-mail"></use>
             </svg>
-          </div>
+          </label>
 
           <textarea
             name="comment"
