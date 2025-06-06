@@ -813,6 +813,7 @@ form {
 
 .form-field {
   position: relative;
+
   display: flex;
   flex-direction: column;
   margin-bottom: 28px;
@@ -834,7 +835,6 @@ form {
 .form-input:not(:placeholder-shown) + .form-label {
   color: var(--accent-color);
   transform: translateY(-40px);
-
 }
 
 .form-label {
