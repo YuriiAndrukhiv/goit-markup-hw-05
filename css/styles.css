@@ -847,7 +847,7 @@ form {
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
   color: var(--accent-color);
-  transform: translate(-25px, -40px);
+  transform: translate(-23px, -40px);
 }
 
 .form-icon {
