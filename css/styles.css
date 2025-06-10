@@ -884,22 +884,23 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-
   padding: 0;
   margin-bottom: 30px;
-
-  outline: 1px solid purple;
-}
-
-input [type='checkbox'] {
-}
-
-.form-checkbox label {
-  margin-left: 4px;
 
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
+  outline: 1px solid purple;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+input [type='checkbox'] {
+
 }
 
 .checkbox-link {
