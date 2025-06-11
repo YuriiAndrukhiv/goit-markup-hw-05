@@ -899,11 +899,12 @@ textarea {
           appearance: none;
 }
 
-input [type='checkbox'] {
+/* input [type='checkbox'] {
 
-}
+} */
 
 .checkbox-link {
+  
   color: var(--accent-color);
 }
 
