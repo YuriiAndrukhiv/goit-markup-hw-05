@@ -799,8 +799,6 @@ form {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 40px;
-
-  outline: 1px solid tomato;
 }
 
 .form-title {
@@ -891,7 +889,6 @@ textarea {
   font-size: 14px;
   line-height: 24px;
   color: var(--secondary-text-color);
-  outline: 1px solid purple;
 }
 
 .checkbox {
@@ -902,17 +899,22 @@ textarea {
   position: absolute;
 }
 
-.form-checkbox .icon {
+.icon-check {
   display: inline-block;
-  width: 16px;
-  height: 15px;
-  border: 2px;
+  margin-right: 4px;
+
+  border: 2px solid var(--primary-text-color);
   border-radius: 2px;
 }
 
-/* input [type='checkbox'] {
+.checkbox:checked + .icon-check {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  background-origin: border-box;
 
-} */
+  transition: background-color var(--time-delay) var(--time-fuction),
+    border-color var(--time-delay) var(--time-fuction);
+}
 
 .checkbox-link {
   color: var(--accent-color);
